@@ -32,7 +32,7 @@ users =
 puts users.length
 puts users.select{ |user| user[:gender] == 'F' && user[:age]>18}
 
-users.push({:username => "taufik", :password => "234", :gender => 'M', :age => 22},)
+# users.push({:username => "taufik", :password => "234", :gender => 'M', :age => 22},)
 users.delete_if{ |user| user[:gender] == 'F'}
 puts users.length
 puts users
